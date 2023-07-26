@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="/Preview-Card-Component/styles.css">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Preview-Card-Component</title>
 </head>
 <body>
     <main>
-        <section class="card">
-            <img src="../Preview-Card-Component/Assets/image-equilibrium.jpg" alt="cubo de cristal">
-            <section>
-                <h1>Equilibrium #3429</h1>
-                <p>Our Equilibrium collection promotes balance and calm.</p>
-                <section>
-                    <div class="icon-text">
-                        <img src="../Preview-Card-Component/Assets/icon-ethereum.svg" alt="icon-ethereum">
-                        <p>0.041ETH</p>
-                    </div>
-                    <div class="icon-text">
-                        <img src="../Preview-Card-Component/Assets/icon-clock.svg" alt="">
-                        <p>3 days left</p>
-                    </div>
-                </section>
-                <div class="line">
-                </div>
-                <section>
-                    <img src="../Preview-Card-Component/Assets/image-avatar.png" alt="imagen perfil">
-                    <p>Creation of Jules Wyvern</p>
-                </section>
-            </section>
+        <section class="card-img">
+            <img class="main-img" src="../Preview-Card-Component/Assets/image-equilibrium.jpg" alt="cubo de cristal">
+            <div class="overlay">
+                <img src="../Preview-Card-Component/Assets/icon-view.svg" alt="View icon">
+            </div>          
         </section>
-    </main>    
+        <section>
+            <h2 class="title">Equilibrium #3429</h2>
+            <p class="information">Our Equilibrium collection promotes balance and calm.</p>
+        </section>
+        <section class="pricing">
+            <div class="icon-text">
+                 <img class="etherium_icon" src="../Preview-Card-Component/Assets/icon-ethereum.svg" alt="icon-ethereum">
+                 <p>0.041ETH</p>
+            </div>
+            <div class="icon-text">
+                <img class="icon-clock" src="../Preview-Card-Component/Assets/icon-clock.svg" alt="icon-clock">
+                <p class="time-left">3 days left</p>
+                </div>
+        </section>
+            <hr>
+        <section class="creator">
+            <img class="profile-img" src="../Preview-Card-Component/Assets/image-avatar.png" alt="imagen perfil">
+            <p>Creation of <a class="another-color" href="" target="_blank">Jules Wyvern</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>Coded by <a class="another-color" href="/" target="_blank">María Teresa</a></p>
+    </footer>
 </body>
 </html>
